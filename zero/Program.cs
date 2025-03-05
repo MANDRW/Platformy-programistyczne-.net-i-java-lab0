@@ -18,7 +18,7 @@
 
         public void ConsoleOut()
         {
-            for (int i = 0; i < size; i++)
+            for (int i = 1; i < size+1; i++)
             {
                 if (i % 5 == 0 && i % 3 == 0) Console.WriteLine("FizzBuzz\n");
                 else if (i % 3 == 0) Console.WriteLine("Fizz\n");
